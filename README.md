@@ -19,7 +19,7 @@ Reference/   -> chr11.fa
 Everything else is auto-generated.
 
 Run
-bashconda activate <env_name>
+conda activate <env_name>
 nextflow run main.nf --reads 'Sequences/*_{1,2}.fastq.gz' --reference Reference/chr11.fa
 
 Update nextflow.config first: set process.conda to your env's full path, and workDir to where you want intermediate files stored.
